@@ -47,22 +47,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 3 */}
-          <div className="border rounded-xl overflow-hidden hover:shadow-lg transition">
-            <div className="h-48 bg-gray-200"></div>
-            <div className="p-6 text-left">
-              <h3 className="text-xl font-semibold mb-2">
-                Elevate Coaching – Personal Brand Website
-              </h3>
-              <p className="text-gray-600 mb-4">
-                Clean landing-style website designed for personal branding,
-                credibility, and client bookings.
-              </p>
-              <button className="text-blue-600 font-medium hover:underline">
-                View Project →
-              </button>
-            </div>
-          </div>
+          
 
         </div>
 
