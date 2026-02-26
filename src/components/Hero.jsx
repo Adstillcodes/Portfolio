@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex justify-center gap-4">
           <a
   href="#projects"
-  className="bg-primary text-white px-6 py-3 rounded-xl font-medium hover:bg-green-700 transition"
+  className="bg-primary text-green px-6 py-3 rounded-xl font-medium hover:bg-green-700 transition"
 >
   View My Work
 </a>
