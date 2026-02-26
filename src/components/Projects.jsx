@@ -40,6 +40,8 @@ const Projects = () => {
               </h3>
               <p className="text-gray-600 mb-4">
                 Clean and modern e-commerce website design for a grocery delivery service, focused on user experience and mobile responsiveness.
+                You can check out the live project by clicking the button below! 
+                Features: Add to cart, Checkout process, Product listing(admin page), Responsive design
               </p>
               <button className="text-blue-600 font-medium hover:underline">
                 <a href="https://groceryecom.vercel.app" target="_blank" rel="noopener noreferrer">View Project →</a>
