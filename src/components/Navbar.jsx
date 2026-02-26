@@ -49,7 +49,7 @@ const Navbar = () => {
             <a href="#projects" className="block hover:text-blue-600">
               Projects
             </a>
-            
+            <a href="#contact" className="block hover:text-blue-600">Contact</a>
           </div>
         </div>
       )}
