@@ -21,9 +21,7 @@ const Navbar = () => {
             <a href="#projects" className="hover:text-blue-600 transition">
               Projects
             </a>
-            <Link to="/contact" className="hover:text-blue-600 transition">
-              Contact
-              </Link>
+            <a href="#contact">Contact</a>
           </div>
 
           {/* Mobile Button */}

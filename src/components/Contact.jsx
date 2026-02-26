@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <section id="contact" className="min-h-screen py-20 bg-gray-50">
       <div className="max-w-4xl mx-auto px-6 py-16">
         <h1 className="text-4xl font-semibold text-gray-800 mb-4">
           Contact Me
@@ -11,7 +11,7 @@ const Contact = () => {
               Mail me on: desh.anvit@gmail.com</h1>
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
