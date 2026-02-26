@@ -23,10 +23,13 @@ const Projects = () => {
               </h3>
               <p className="text-gray-600 mb-4">
                 Concept website for a modern restaurant featuring menu
-                showcase, reservation section, and responsive design.
+                showcase,and responsive design.
+                It includes a reservation system you can try out for yourself! Just enter your mail ID and you can recieve all your reservation details in your inbox.
               </p>
               <button className="text-blue-600 font-medium hover:underline">
-                View Project →
+                <a href="https://bella-vista-jade.vercel.app" target="_blank" rel="noopener noreferrer">
+                  View Project →
+                </a>
               </button>
             </div>
           </div>
