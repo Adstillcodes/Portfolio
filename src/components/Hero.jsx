@@ -14,9 +14,12 @@ const Hero = () => {
         </p>
 
         <div className="flex justify-center gap-4">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition">
-            View My Work
-          </button>
+          <a
+  href="#projects"
+  className="bg-primary text-white px-6 py-3 rounded-xl font-medium hover:bg-green-700 transition"
+>
+  View My Work
+</a>
 
           
         </div>
