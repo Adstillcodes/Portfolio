@@ -7,8 +7,8 @@ const Contact = () => {
         </h1>
 
         <p className="text-gray-600 mb-10">
-          Interested in working together or need a website built?
-          Mail me on: desh.anvit@gmail.com
+          <h1>Interested in working together or need a website built?
+              Mail me on: desh.anvit@gmail.com</h1>
         </p>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,9 +21,9 @@ const Navbar = () => {
             <a href="#projects" className="hover:text-blue-600 transition">
               Projects
             </a>
-            <a href="#contact" className="hover:text-blue-600 transition">
-              Contact
-            </a>
+            <Link to="/contact" className="hover:text-blue-600 transition">
+  Contact
+</Link>
           </div>
 
           {/* Mobile Button */}
