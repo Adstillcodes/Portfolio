@@ -21,7 +21,9 @@ const Navbar = () => {
             <a href="#projects" className="hover:text-blue-600 transition">
               Projects
             </a>
-            <Link to="/contact">Contact</Link>
+            <a href="#contact" className="hover:text-blue-600 transition">
+              Contact
+            </a>
           </div>
 
           {/* Mobile Button */}
@@ -47,7 +49,7 @@ const Navbar = () => {
             <a href="#projects" className="block hover:text-blue-600">
               Projects
             </a>
-            <Link to="/contact">Contact</Link>
+            
           </div>
         </div>
       )}
