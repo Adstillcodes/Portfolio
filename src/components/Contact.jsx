@@ -8,45 +8,8 @@ const Contact = () => {
 
         <p className="text-gray-600 mb-10">
           Interested in working together or need a website built?
-          Fill out the form below and I’ll get back to you.
+          Mail me on: desh.anvit@gmail.com
         </p>
-
-        <div className="bg-white rounded-2xl shadow-sm p-8">
-          <form className="space-y-6">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full border rounded-lg p-3"
-              required
-            />
-
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full border rounded-lg p-3"
-              required
-            />
-
-            <textarea
-              placeholder="Your Message"
-              rows="5"
-              className="w-full border rounded-lg p-3"
-              required
-            />
-
-            <button
-              type="submit"
-              className="w-full bg-primary text-white py-3 rounded-xl font-medium hover:bg-green-700 transition"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-
-        <div className="mt-10 text-gray-600">
-          <p>📧 your.email@example.com</p>
-          <p>🌍 Available for freelance projects</p>
-        </div>
       </div>
     </div>
   );
