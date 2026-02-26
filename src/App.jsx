@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <Services />
       <Projects />
-      <Contact />
+      <Route path="/contact" element={<Contact />} />
     </div>
   );
 }

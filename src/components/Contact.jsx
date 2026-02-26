@@ -1,12 +1,6 @@
-import CustomerNavbar from "../components/Navbar"; // adjust if different
-
 const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Navbar */}
-      <CustomerNavbar />
-
-      {/* Contact Section */}
       <div className="max-w-4xl mx-auto px-6 py-16">
         <h1 className="text-4xl font-semibold text-gray-800 mb-4">
           Contact Me
@@ -49,7 +43,6 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Quick contact info */}
         <div className="mt-10 text-gray-600">
           <p>📧 your.email@example.com</p>
           <p>🌍 Available for freelance projects</p>
